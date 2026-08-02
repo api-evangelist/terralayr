@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.trlyr.com/.well-known/
+host: https://www.trlyr.com
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: terralayr-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: terralayr-oauth-authorization-server.json
+- path: /.well-known/jwks
+  status: 200
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  The OIDC/OAuth discovery documents describe the Umbraco CMS Delivery API member
+  authentication surface (authorization_code + refresh_token, PKCE S256), not the
+  private LAYR flexibility product API. Captured as a real well-known catalog hit.

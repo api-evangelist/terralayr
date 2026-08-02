@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.trlyr.com/.well-known/openid-configuration
+docs: https://www.trlyr.com/.well-known/openid-configuration
+schemes:
+- name: oauth2
+  source: well-known/terralayr-oauth-authorization-server.json
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://www.trlyr.com/umbraco/delivery/api/v1/security/member/authorize
+    tokenUrl: https://www.trlyr.com/umbraco/delivery/api/v1/security/member/token
+scopes:
+- scope: openid
+  description: OpenID Connect authentication for a site member
+  flows: [authorizationCode]
+  sources: [well-known/terralayr-openid-configuration.json]
+- scope: offline_access
+  description: Issue a refresh token so the client can act while the member is offline
+  flows: [authorizationCode]
+  sources: [well-known/terralayr-openid-configuration.json]

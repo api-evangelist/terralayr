@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.trlyr.com/
+status_page: https://status.trlyr.com
+versioning:
+  scheme: unknown
+  note: >-
+    The LAYR flexibility API is B2B/private; no public versioning or deprecation
+    policy is published. A public system status page is operated.
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null

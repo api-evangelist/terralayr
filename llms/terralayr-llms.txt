@@ -1,0 +1,26 @@
+# terralayr
+
+> terralayr is an energy-flexibility company that develops, owns and operates utility-scale battery energy storage systems (BESS) and runs LAYR, a cloud platform that aggregates heterogeneous storage assets and makes their flexibility available to utilities, grid operators, power traders, aggregators and asset owners. Storage capacity is bookable via API with no hardware onboarding. The LAYR product API is B2B/private and publishes no public OpenAPI, SDKs or developer documentation.
+
+## Company
+- [Website](https://www.trlyr.com/): Company home
+- [About](https://www.trlyr.com/about): Company overview
+- [Mission](https://www.trlyr.com/mission): Mission
+- [LAYR / Flexibility users](https://www.trlyr.com/flexibility-users/): The energy-flexibility commercialisation platform
+- [Asset development](https://www.trlyr.com/asset-development): Utility-scale BESS development and operations
+- [Careers](https://www.trlyr.com/careers): Open roles
+- [Media Kit](https://www.trlyr.com/media-kit): Press and brand assets
+
+## Operations
+- [System status](https://status.trlyr.com): Live platform status page
+
+## Identity / Discovery
+- [OpenID configuration](https://www.trlyr.com/.well-known/openid-configuration): OIDC discovery document (member auth)
+- [OAuth authorization server](https://www.trlyr.com/.well-known/oauth-authorization-server): RFC 8414 metadata (member auth)
+
+## Legal
+- [Legal notice](https://www.trlyr.com/legal): Imprint / legal notice
+- [Policies](https://www.trlyr.com/policies): Privacy and cookie policies
+
+## Code
+- [GitHub organization](https://github.com/Terralayr): Public GitHub org

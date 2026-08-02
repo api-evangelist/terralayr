@@ -1,8 +1,16 @@
 aid: terralayr
 name: terralayr
-description: 'terralayr is a company surfaced as a portfolio company of creandum, earlybird and added
-  to the API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  terralayr is a German energy-flexibility company that develops, owns and operates
+  utility-scale battery energy storage systems (BESS) and runs LAYR, a cloud platform
+  that aggregates heterogeneous storage assets and makes their flexibility available
+  as bookable capacity to utilities, grid operators, power traders, aggregators and
+  asset owners. The platform lets customers buy and sell dispatchable capacity to
+  balance renewable generation against fluctuating grid demand, with storage bookable
+  via API and no complex hardware onboarding. terralayr is backed by Creandum and
+  Earlybird. Its LAYR product API is B2B/private and publishes no public OpenAPI,
+  SDKs or developer documentation; this profile captures the public well-known
+  discovery, security and operational surface.
 url: https://raw.githubusercontent.com/api-evangelist/terralayr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +19,31 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Climate
+- Energy
+- Battery Energy Storage
+- Grid Flexibility
+- Renewable Energy
+- Cleantech
+- Energy Trading
+image: https://www.trlyr.com/media-kit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.trlyr.com/
+- type: StatusPage
+  url: https://status.trlyr.com
+- type: GitHubOrganization
+  url: https://github.com/Terralayr
+- type: PrivacyPolicy
+  url: https://www.trlyr.com/policies
+- type: WellKnown
+  url: well-known/terralayr-well-known.yml
+- type: Authentication
+  url: authentication/terralayr-authentication.yml
+- type: OAuthScopes
+  url: scopes/terralayr-scopes.yml
+- type: Lifecycle
+  url: lifecycle/terralayr-lifecycle.yml
+- type: Conformance
+  url: conformance/terralayr-conformance.yml
+- type: DomainSecurity
+  url: security/terralayr-domain-security.yml
+- type: LLMsTxt
+  url: llms/terralayr-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1
